@@ -13,9 +13,9 @@ function drawClock() {
 
 function drawFace(ctx, radius) {
   const grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-  grad.addColorStop(0, '#333');
+  grad.addColorStop(0, 'gold');
   grad.addColorStop(0.5, 'white');
-  grad.addColorStop(1, '#333');
+  grad.addColorStop(1, 'gold');
   ctx.beginPath();
   ctx.arc(0, 0, radius, 0, 2*Math.PI);
   ctx.fillStyle = 'royalblue';
@@ -25,7 +25,7 @@ function drawFace(ctx, radius) {
   ctx.stroke();
   ctx.beginPath();
   ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-  ctx.fillStyle = 'gold';
+  ctx.fillStyle = 'silver';
   ctx.fill();
 }
 
