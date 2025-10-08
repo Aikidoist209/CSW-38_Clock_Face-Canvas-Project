@@ -17,15 +17,14 @@
     max-height: 100vw;
    } 
    p{
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 30px;
     margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-    line-break: anywhere;
+    margin-left: 5%;
+    margin-right: 5%;
    }
  }
 
@@ -40,8 +39,8 @@
 
  @media screen and (max-width: 300px) {
     canvas {
-     width: 95vw;
-     height: 95vw;
+     width: 75vw;
+     height: 75vw;
      max-width: 100vw;
      max-height: 100vw;
     }
@@ -69,15 +68,28 @@ p {
 }
  p {
     font-family: "Orbitron", sans-serif;
-    display: flex;
+    font-size: 1.2em;
+    display: flexbox;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 375;
     font-style: normal;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+    margin-left: 150px;
+    margin-right: 150px;
+}
+ aside {
+   font-size: 2.0em;
+   font-family: "Italianno", cursive;
+   font-weight: 500;
+   font-style: italic;
+   margin-left: 5%;
+   margin-right: 5%;
+   text-align: center;
+ }
+
+ aside::first-letter {
+   font-size:2em;
+   font-weight: bold;
  }

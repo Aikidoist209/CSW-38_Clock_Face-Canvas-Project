@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,8 +17,8 @@ Sorry, your browser does not support canvas.
 
 <script src="clock_script.js"></script>
 
-<p><strong>I had some fun with this assignment! I did run into some problems though, but the codespace helper helped me fix my mistakes.<br>
-    When I tried to change the numbers to roman numerals it completely borked the code at first and I thought I was going to have to fetch the original code again from W3Schools,<br> but thankfully it just turned out to be a simple spelling error.</strong></p>
-
+<p><strong>I had some fun with this assignment! I did run into some problems though, but the codespace help agent provided a lot of help with debugging.
+For instance, when I tried to change the numbers to roman numerals it completely borked the code at first and I thought I was going to have to fetch the original code again from W3Schools, but thankfully the issue just turned out to be a simple spelling error.</strong></p>
+<aside>Linear time is only a construct; an artifact of this physical dimension. All time past, present, and future is occurring simultaneously outside of human perception.</aside>
 </body>
 </html>
